@@ -1,3 +1,5 @@
+## WARNING: The full PCB is largely untested, has no support for a case, and is being replaced with a new version soon. It's not recommended to order quite yet.
+
 # OpeNITHM
 
 This repository contails files related to OpeNITHM.
