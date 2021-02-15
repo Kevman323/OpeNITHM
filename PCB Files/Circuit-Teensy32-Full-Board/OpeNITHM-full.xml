@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\Kevin\Desktop\Openithm_full\OpeNITHM.sch</source>
-    <date>11/5/2020 6:42:51 PM</date>
+    <source>C:\Users\Kevin\Desktop\Circuit-Teensy32-Full-Board\OpeNITHM-full.sch</source>
+    <date>2/2/2021 11:05:57 PM</date>
     <tool>Eeschema (5.1.7)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -10,7 +10,7 @@
         <company/>
         <rev>v2.1</rev>
         <date>2020-06-03</date>
-        <source>OpeNITHM.sch</source>
+        <source>OpeNITHM-full.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -19,440 +19,11 @@
     </sheet>
   </design>
   <components>
-    <comp ref="R22">
-      <value>R_AIR</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="R-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C729DF3</tstamp>
-    </comp>
-    <comp ref="R18">
-      <value>33</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="R-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C656A75</tstamp>
-    </comp>
-    <comp ref="R20">
-      <value>R_AIR</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="R-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C7370DB</tstamp>
-    </comp>
-    <comp ref="R24">
-      <value>R_AIR</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="R-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C737141</tstamp>
-    </comp>
-    <comp ref="R21">
-      <value>R_AIR</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="R-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C7371B3</tstamp>
-    </comp>
-    <comp ref="R25">
-      <value>R_AIR</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="R-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C737282</tstamp>
-    </comp>
-    <comp ref="R23">
-      <value>R_AIR</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="R-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C737302</tstamp>
-    </comp>
-    <comp ref="R19">
-      <value>33</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="R-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C656AD7</tstamp>
-    </comp>
-    <comp ref="R17">
-      <value>33</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="R-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C6561AE</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>Conn_02x07_Odd_Even</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="Conn_02x07_Odd_Even-Connector_Generic" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F1F3A47</tstamp>
-    </comp>
-    <comp ref="Keys1">
-      <value>Conn_02x16_Odd_Even</value>
-      <footprint>TouchPad:Pads</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x16_Odd_Even" description="Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>603B430C</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FB0F659</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FCA7844</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FCC1AFB</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FCDBA6A</tstamp>
-    </comp>
-    <comp ref="D5">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FCF674C</tstamp>
-    </comp>
-    <comp ref="D6">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FD11309</tstamp>
-    </comp>
-    <comp ref="D7">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FD2C35B</tstamp>
-    </comp>
-    <comp ref="D8">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE11EA5</tstamp>
-    </comp>
-    <comp ref="D9">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE11EAC</tstamp>
-    </comp>
-    <comp ref="D10">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE11EB5</tstamp>
-    </comp>
-    <comp ref="D11">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE11EBE</tstamp>
-    </comp>
-    <comp ref="D12">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE11EC7</tstamp>
-    </comp>
-    <comp ref="D13">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE11ED0</tstamp>
-    </comp>
-    <comp ref="D14">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE11ED9</tstamp>
-    </comp>
-    <comp ref="D15">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE221B</tstamp>
-    </comp>
-    <comp ref="D16">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE2222</tstamp>
-    </comp>
-    <comp ref="D17">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE222B</tstamp>
-    </comp>
-    <comp ref="D18">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE2234</tstamp>
-    </comp>
-    <comp ref="D19">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE223D</tstamp>
-    </comp>
-    <comp ref="D20">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE2246</tstamp>
-    </comp>
-    <comp ref="D21">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE224F</tstamp>
-    </comp>
-    <comp ref="D22">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE2258</tstamp>
-    </comp>
-    <comp ref="D23">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE225F</tstamp>
-    </comp>
-    <comp ref="D24">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE2268</tstamp>
-    </comp>
-    <comp ref="D25">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE2271</tstamp>
-    </comp>
-    <comp ref="D26">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE227A</tstamp>
-    </comp>
-    <comp ref="D27">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE2283</tstamp>
-    </comp>
-    <comp ref="D28">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEE228C</tstamp>
-    </comp>
-    <comp ref="D29">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FF1536E</tstamp>
-    </comp>
-    <comp ref="D30">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FF15375</tstamp>
-    </comp>
-    <comp ref="D31">
-      <value>WS2812B-B</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FF1537E</tstamp>
-    </comp>
     <comp ref="LOGO2">
       <value>Logo</value>
-      <footprint>OpeNITHM:openithm-logo</footprint>
+      <footprint>OpeNITHM:openithm-big</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="Fiducial-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EDBDB31</tstamp>
     </comp>
@@ -460,7 +31,7 @@
       <value>Logo</value>
       <footprint>OpeNITHM:openithm-logo</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="Fiducial-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61D0BFCA</tstamp>
     </comp>
@@ -468,7 +39,7 @@
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61CB6DDB</tstamp>
     </comp>
@@ -476,7 +47,7 @@
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61C9AB4E</tstamp>
     </comp>
@@ -484,7 +55,7 @@
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61C7E905</tstamp>
     </comp>
@@ -492,23 +63,15 @@
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61C7D45F</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>Conn_02x04_Odd_Even</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FF29E02</tstamp>
     </comp>
     <comp ref="H8">
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA06381</tstamp>
     </comp>
@@ -516,7 +79,7 @@
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA06387</tstamp>
     </comp>
@@ -524,7 +87,7 @@
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA0638D</tstamp>
     </comp>
@@ -532,7 +95,7 @@
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA06393</tstamp>
     </comp>
@@ -540,7 +103,7 @@
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA34B39</tstamp>
     </comp>
@@ -548,7 +111,7 @@
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA34B3F</tstamp>
     </comp>
@@ -556,7 +119,7 @@
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA34B45</tstamp>
     </comp>
@@ -564,7 +127,7 @@
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA34B4B</tstamp>
     </comp>
@@ -700,6 +263,38 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6088FC28</tstamp>
     </comp>
+    <comp ref="H14">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA4A251</tstamp>
+    </comp>
+    <comp ref="H13">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA4A257</tstamp>
+    </comp>
+    <comp ref="H16">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA4A269</tstamp>
+    </comp>
+    <comp ref="H15">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA4A26F</tstamp>
+    </comp>
     <comp ref="U1">
       <value>Teensy-LC</value>
       <footprint>teensy:TeensyLC</footprint>
@@ -707,335 +302,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60903472</tstamp>
     </comp>
-    <comp ref="C5">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
+    <comp ref="D31">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="LCSC">C114586</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>624ACD53</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>624D3DEB</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>624FAF76</tstamp>
-    </comp>
-    <comp ref="C8">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>62523946</tstamp>
-    </comp>
-    <comp ref="C9">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6254AB7D</tstamp>
-    </comp>
-    <comp ref="C10">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>62571FA3</tstamp>
-    </comp>
-    <comp ref="C11">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>62599654</tstamp>
-    </comp>
-    <comp ref="C12">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>625C2766</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>625EA20B</tstamp>
-    </comp>
-    <comp ref="C14">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>62611CEB</tstamp>
-    </comp>
-    <comp ref="C15">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>62639A42</tstamp>
-    </comp>
-    <comp ref="C16">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6266197C</tstamp>
-    </comp>
-    <comp ref="C17">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>62689F2F</tstamp>
-    </comp>
-    <comp ref="C18">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>626B25F1</tstamp>
-    </comp>
-    <comp ref="C19">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>626DAE9A</tstamp>
-    </comp>
-    <comp ref="C20">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6270383A</tstamp>
-    </comp>
-    <comp ref="C21">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6272C4C1</tstamp>
-    </comp>
-    <comp ref="C22">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>627554ED</tstamp>
-    </comp>
-    <comp ref="C23">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6277E7BC</tstamp>
-    </comp>
-    <comp ref="C24">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>627A7D80</tstamp>
-    </comp>
-    <comp ref="C25">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>627D1469</tstamp>
-    </comp>
-    <comp ref="C26">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>627FAFA5</tstamp>
-    </comp>
-    <comp ref="C27">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>62824D36</tstamp>
-    </comp>
-    <comp ref="C28">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6284EE12</tstamp>
-    </comp>
-    <comp ref="C29">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>62878FB3</tstamp>
-    </comp>
-    <comp ref="C30">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>628A3409</tstamp>
-    </comp>
-    <comp ref="C31">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>628CDD0C</tstamp>
-    </comp>
-    <comp ref="C32">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>628F89B8</tstamp>
-    </comp>
-    <comp ref="C33">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>62923C03</tstamp>
-    </comp>
-    <comp ref="C34">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6294F03F</tstamp>
+      <tstamp>5FF1537E</tstamp>
     </comp>
     <comp ref="C35">
       <value>100nF</value>
@@ -1048,69 +324,821 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6297A7A6</tstamp>
     </comp>
-    <comp ref="H14">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+    <comp ref="C34">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA4A251</tstamp>
+      <tstamp>6294F03F</tstamp>
     </comp>
-    <comp ref="H13">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+    <comp ref="C33">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA4A257</tstamp>
+      <tstamp>62923C03</tstamp>
     </comp>
-    <comp ref="H18">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+    <comp ref="C32">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA4A25D</tstamp>
+      <tstamp>628F89B8</tstamp>
     </comp>
-    <comp ref="H17">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+    <comp ref="C31">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA4A263</tstamp>
+      <tstamp>628CDD0C</tstamp>
     </comp>
-    <comp ref="H16">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+    <comp ref="C30">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA4A269</tstamp>
+      <tstamp>628A3409</tstamp>
     </comp>
-    <comp ref="H15">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+    <comp ref="C29">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="OpeNITHM-rescue" part="MountingHole-Mechanical" description=""/>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA4A26F</tstamp>
+      <tstamp>62878FB3</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6284EE12</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62824D36</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627FAFA5</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627D1469</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627A7D80</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6277E7BC</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627554ED</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6272C4C1</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6270383A</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626DAE9A</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626B25F1</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62689F2F</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6266197C</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62639A42</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62611CEB</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625EA20B</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625C2766</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62599654</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62571FA3</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6254AB7D</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62523946</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624FAF76</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624D3DEB</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624ACD53</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF15375</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF1536E</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE228C</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE2283</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE227A</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE2271</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE2268</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE225F</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE2258</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE224F</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE2246</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE223D</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE2234</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE222B</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE2222</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE221B</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE11ED9</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE11ED0</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE11EC7</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE11EBE</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE11EB5</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE11EAC</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE11EA5</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD2C35B</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD11309</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF674C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCDBA6A</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCC1AFB</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA7844</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>WS2812B-B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB0F659</tstamp>
+    </comp>
+    <comp ref="Keys1">
+      <value>Conn_02x16_Odd_Even</value>
+      <footprint>TouchPad:Pads</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x16_Odd_Even" description="Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603B430C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x09</value>
+      <footprint>Connector_JST:JST_PH_S9B-PH-K_1x09_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E9DA58</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x09</value>
+      <footprint>Connector_JST:JST_PH_S9B-PH-K_1x09_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6015E1C0</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63490193</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63492361</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BD1F5B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BD3D8C</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>+5V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63DBDCCC</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>D+</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63E0556D</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63ECD3E2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4085</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626A6565</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Barrel_Jack</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642BAEA4</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64F576C1</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64F59060</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603273EE</tstamp>
     </comp>
     <comp ref="J4">
-      <value>Conn_02x03_Odd_Even</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal</footprint>
+      <value>Conn_02x07_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>601BDD13</tstamp>
+      <tstamp>5F1F3A47</tstamp>
     </comp>
-    <comp ref="JP1">
-      <value>SolderJumper_3_Open</value>
-      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+    <comp ref="TP2">
+      <value>D-</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>601FDCC7</tstamp>
+      <tstamp>63DC3069</tstamp>
+    </comp>
+    <comp ref="LOGO3">
+      <value>Logo</value>
+      <footprint>OpeNITHM:openithm-logo</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6087E6E3</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1149,34 +1177,108 @@
         <pin num="16" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
-      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
       <docs>~</docs>
       <footprints>
-        <fp>Connector*:*_2x??_*</fp>
+        <fp>BarrelJack*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
-      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector_Generic" part="Conn_01x09">
+      <description>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
-        <fp>Connector*:*_2x??_*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x04_Odd_Even</field>
+        <field name="Value">Conn_01x09</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -1187,6 +1289,32 @@
         <pin num="6" name="Pin_6" type="passive"/>
         <pin num="7" name="Pin_7" type="passive"/>
         <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x06_Odd_Even">
+      <description>Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x06_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x16_Odd_Even">
@@ -1249,6 +1377,24 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R_Small_US">
       <description>Resistor, small US symbol</description>
       <docs>~</docs>
@@ -1262,22 +1408,6 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Jumper" part="SolderJumper_3_Open">
-      <description>Solder Jumper, 3-pole, open</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>SolderJumper*Open*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">SolderJumper_3_Open</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="C" type="input"/>
-        <pin num="3" name="B" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="LED" part="WS2812B">
@@ -1298,61 +1428,27 @@
         <pin num="4" name="DIN" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="OpeNITHM-rescue" part="Conn_02x07_Odd_Even-Connector_Generic">
-      <footprints>
-        <fp>Connector*:*_2x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_02x07_Odd_Even-Connector_Generic</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
-        <pin num="7" name="Pin_7" type="passive"/>
-        <pin num="8" name="Pin_8" type="passive"/>
-        <pin num="9" name="Pin_9" type="passive"/>
-        <pin num="10" name="Pin_10" type="passive"/>
-        <pin num="11" name="Pin_11" type="passive"/>
-        <pin num="12" name="Pin_12" type="passive"/>
-        <pin num="13" name="Pin_13" type="passive"/>
-        <pin num="14" name="Pin_14" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="OpeNITHM-rescue" part="Fiducial-Mechanical">
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
       <footprints>
         <fp>Fiducial*</fp>
       </footprints>
       <fields>
         <field name="Reference">FID</field>
-        <field name="Value">Fiducial-Mechanical</field>
+        <field name="Value">Fiducial</field>
       </fields>
     </libpart>
-    <libpart lib="OpeNITHM-rescue" part="MountingHole-Mechanical">
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
       <footprints>
         <fp>MountingHole*</fp>
       </footprints>
       <fields>
         <field name="Reference">H</field>
-        <field name="Value">MountingHole-Mechanical</field>
+        <field name="Value">MountingHole</field>
       </fields>
-    </libpart>
-    <libpart lib="OpeNITHM-rescue" part="R-Device">
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R-Device</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
     </libpart>
     <libpart lib="teensy" part="Teensy-LC">
       <fields>
@@ -1404,623 +1500,660 @@
     <library logical="74xx">
       <uri>C:\Programs\Other Programs\KiCad\share\kicad\library/74xx.lib</uri>
     </library>
+    <library logical="Connector">
+      <uri>C:\Programs\Other Programs\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
     <library logical="Connector_Generic">
       <uri>C:\Programs\Other Programs\KiCad\share\kicad\library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
       <uri>C:\Programs\Other Programs\KiCad\share\kicad\library/Device.lib</uri>
     </library>
-    <library logical="Jumper">
-      <uri>C:\Programs\Other Programs\KiCad\share\kicad\library/Jumper.lib</uri>
-    </library>
     <library logical="LED">
       <uri>C:\Programs\Other Programs\KiCad\share\kicad\library/LED.lib</uri>
     </library>
-    <library logical="OpeNITHM-rescue">
-      <uri>C:\Users\Kevin\Desktop\Openithm_full/OpeNITHM-rescue.lib</uri>
+    <library logical="Mechanical">
+      <uri>C:\Programs\Other Programs\KiCad\share\kicad\library/Mechanical.lib</uri>
     </library>
     <library logical="teensy">
-      <uri>C:\Users\Kevin\Desktop\Openithm_full/teensy_library/teensy.lib</uri>
+      <uri>C:\Users\Kevin\Desktop\Circuit-Teensy32-Full-Board/teensy_library/teensy.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/TOUCH_0">
-      <node ref="U2" pin="3"/>
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="2" name="/AIR_2">
-      <node ref="R24" pin="1"/>
-      <node ref="U1" pin="29"/>
-      <node ref="J5" pin="4"/>
-    </net>
-    <net code="3" name="/AIR_4">
-      <node ref="R25" pin="1"/>
-      <node ref="J5" pin="5"/>
-      <node ref="U1" pin="28"/>
-    </net>
-    <net code="4" name="/AIR_1">
-      <node ref="R20" pin="1"/>
-      <node ref="U1" pin="27"/>
-      <node ref="J5" pin="6"/>
-    </net>
-    <net code="5" name="/AIR_3">
-      <node ref="R21" pin="1"/>
-      <node ref="U1" pin="26"/>
-      <node ref="J5" pin="7"/>
-    </net>
-    <net code="6" name="/AIR_0">
-      <node ref="R22" pin="1"/>
-      <node ref="U1" pin="25"/>
-      <node ref="J5" pin="8"/>
-    </net>
-    <net code="7" name="/RGB_DO">
-      <node ref="U1" pin="24"/>
-      <node ref="U1" pin="7"/>
-    </net>
-    <net code="8" name="/SPARE_2">
-      <node ref="U1" pin="21"/>
-      <node ref="J3" pin="5"/>
-    </net>
-    <net code="9" name="Net-(U1-Pad18)">
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="10" name="Net-(U1-Pad17)">
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="11" name="Net-(U1-Pad16)">
-      <node ref="U1" pin="16"/>
-    </net>
-    <net code="12" name="/KEY_1">
-      <node ref="U2" pin="1"/>
-      <node ref="Keys1" pin="3"/>
-    </net>
-    <net code="13" name="Net-(R1-Pad1)">
-      <node ref="R1" pin="1"/>
-      <node ref="U2" pin="6"/>
-    </net>
-    <net code="14" name="/KEY_2">
-      <node ref="Keys1" pin="5"/>
-      <node ref="U2" pin="14"/>
-    </net>
-    <net code="15" name="/KEY_8">
-      <node ref="Keys1" pin="2"/>
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="16" name="Net-(R2-Pad1)">
-      <node ref="U3" pin="6"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="17" name="Net-(R4-Pad1)">
-      <node ref="R4" pin="1"/>
-      <node ref="U5" pin="6"/>
-    </net>
-    <net code="18" name="Net-(R3-Pad1)">
-      <node ref="U4" pin="6"/>
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="19" name="/AIR_5">
-      <node ref="J5" pin="3"/>
-      <node ref="R23" pin="1"/>
-      <node ref="U1" pin="30"/>
-    </net>
-    <net code="20" name="+3V3">
-      <node ref="C1" pin="1"/>
-      <node ref="U5" pin="16"/>
-      <node ref="U3" pin="16"/>
-      <node ref="U4" pin="16"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="J5" pin="1"/>
-      <node ref="U1" pin="31"/>
-      <node ref="U2" pin="16"/>
-      <node ref="JP1" pin="1"/>
-    </net>
-    <net code="21" name="/TOUCH_3">
-      <node ref="U5" pin="3"/>
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="22" name="/KEY_11">
-      <node ref="U2" pin="13"/>
-      <node ref="Keys1" pin="8"/>
-    </net>
-    <net code="23" name="/KEY_9">
-      <node ref="Keys1" pin="4"/>
-      <node ref="U2" pin="2"/>
-    </net>
-    <net code="24" name="Net-(U1-Pad37)">
-      <node ref="U1" pin="37"/>
-    </net>
-    <net code="25" name="Net-(U1-Pad36)">
-      <node ref="U1" pin="36"/>
-    </net>
-    <net code="26" name="Net-(U1-Pad35)">
-      <node ref="U1" pin="35"/>
-    </net>
-    <net code="27" name="Net-(U1-Pad34)">
-      <node ref="U1" pin="34"/>
-    </net>
-    <net code="28" name="/SPARE_3">
-      <node ref="U1" pin="11"/>
-      <node ref="J3" pin="7"/>
-    </net>
-    <net code="29" name="/SPARE_1">
-      <node ref="J3" pin="3"/>
-      <node ref="U1" pin="19"/>
-    </net>
-    <net code="30" name="/KEY_4">
-      <node ref="U5" pin="4"/>
-      <node ref="Keys1" pin="9"/>
-    </net>
-    <net code="31" name="/KEY_15">
-      <node ref="U5" pin="13"/>
-      <node ref="Keys1" pin="16"/>
-    </net>
-    <net code="32" name="/KEY_6">
-      <node ref="U5" pin="14"/>
-      <node ref="Keys1" pin="13"/>
-    </net>
-    <net code="33" name="/KEY_14">
-      <node ref="Keys1" pin="14"/>
-      <node ref="U5" pin="15"/>
-    </net>
-    <net code="34" name="/KEY_5">
-      <node ref="Keys1" pin="11"/>
-      <node ref="U5" pin="1"/>
-    </net>
-    <net code="35" name="/KEY_13">
-      <node ref="Keys1" pin="12"/>
-      <node ref="U5" pin="2"/>
-    </net>
-    <net code="36" name="/KEY_12">
-      <node ref="Keys1" pin="10"/>
-      <node ref="U5" pin="5"/>
-    </net>
-    <net code="37" name="/KEY_7">
-      <node ref="U5" pin="12"/>
-      <node ref="Keys1" pin="15"/>
-    </net>
-    <net code="38" name="/MUX_0">
-      <node ref="U1" pin="6"/>
-      <node ref="U2" pin="11"/>
-      <node ref="U4" pin="11"/>
-      <node ref="U3" pin="11"/>
-      <node ref="U5" pin="11"/>
-    </net>
-    <net code="39" name="/MUX_2">
-      <node ref="U1" pin="4"/>
-      <node ref="U3" pin="9"/>
-      <node ref="U2" pin="9"/>
-      <node ref="U5" pin="9"/>
-      <node ref="U4" pin="9"/>
-    </net>
-    <net code="40" name="/MUX_1">
-      <node ref="U5" pin="10"/>
-      <node ref="U1" pin="5"/>
-      <node ref="U4" pin="10"/>
-      <node ref="U3" pin="10"/>
-      <node ref="U2" pin="10"/>
-    </net>
-    <net code="41" name="/KEY_10">
-      <node ref="Keys1" pin="6"/>
-      <node ref="U2" pin="15"/>
-    </net>
-    <net code="42" name="Net-(J4-Pad4)">
-      <node ref="J4" pin="4"/>
-    </net>
-    <net code="43" name="VCC">
-      <node ref="J4" pin="5"/>
-      <node ref="JP1" pin="2"/>
-    </net>
-    <net code="44" name="GND">
-      <node ref="C33" pin="2"/>
-      <node ref="C34" pin="2"/>
-      <node ref="C14" pin="1"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="D16" pin="3"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C35" pin="2"/>
-      <node ref="J3" pin="12"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C12" pin="1"/>
-      <node ref="D4" pin="3"/>
-      <node ref="R22" pin="2"/>
-      <node ref="U3" pin="8"/>
-      <node ref="U2" pin="8"/>
-      <node ref="R2" pin="2"/>
-      <node ref="D19" pin="3"/>
-      <node ref="R4" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="R23" pin="2"/>
-      <node ref="U2" pin="7"/>
-      <node ref="J3" pin="6"/>
-      <node ref="J3" pin="8"/>
-      <node ref="J3" pin="10"/>
-      <node ref="R1" pin="2"/>
-      <node ref="C29" pin="1"/>
-      <node ref="J3" pin="14"/>
-      <node ref="J3" pin="4"/>
-      <node ref="C25" pin="2"/>
-      <node ref="C26" pin="1"/>
-      <node ref="D18" pin="3"/>
-      <node ref="D2" pin="3"/>
-      <node ref="C27" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="J3" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="D1" pin="3"/>
-      <node ref="C28" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="R25" pin="2"/>
-      <node ref="D15" pin="3"/>
-      <node ref="C30" pin="1"/>
-      <node ref="R21" pin="2"/>
-      <node ref="C31" pin="1"/>
-      <node ref="R24" pin="2"/>
-      <node ref="D17" pin="3"/>
-      <node ref="C32" pin="1"/>
-      <node ref="R20" pin="2"/>
-      <node ref="D3" pin="3"/>
-      <node ref="C24" pin="2"/>
-      <node ref="D13" pin="3"/>
-      <node ref="D12" pin="3"/>
-      <node ref="D11" pin="3"/>
-      <node ref="D22" pin="3"/>
-      <node ref="D23" pin="3"/>
-      <node ref="D14" pin="3"/>
-      <node ref="D7" pin="3"/>
-      <node ref="U3" pin="7"/>
-      <node ref="D6" pin="3"/>
-      <node ref="C1" pin="2"/>
-      <node ref="U5" pin="8"/>
-      <node ref="U4" pin="7"/>
-      <node ref="D5" pin="3"/>
-      <node ref="U4" pin="8"/>
-      <node ref="D10" pin="3"/>
-      <node ref="D9" pin="3"/>
-      <node ref="D8" pin="3"/>
-      <node ref="U5" pin="7"/>
-      <node ref="D30" pin="3"/>
-      <node ref="D29" pin="3"/>
-      <node ref="D28" pin="3"/>
-      <node ref="D24" pin="3"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C23" pin="2"/>
-      <node ref="C21" pin="2"/>
-      <node ref="C15" pin="1"/>
-      <node ref="D20" pin="3"/>
-      <node ref="C16" pin="1"/>
-      <node ref="D31" pin="3"/>
-      <node ref="C17" pin="1"/>
-      <node ref="C18" pin="1"/>
-      <node ref="D25" pin="3"/>
-      <node ref="D21" pin="3"/>
-      <node ref="J5" pin="2"/>
-      <node ref="U1" pin="32"/>
-      <node ref="D26" pin="3"/>
-      <node ref="D27" pin="3"/>
-      <node ref="J4" pin="6"/>
-    </net>
-    <net code="45" name="/KEY_23">
-      <node ref="Keys1" pin="31"/>
-      <node ref="U3" pin="12"/>
-    </net>
-    <net code="46" name="/KEY_30">
-      <node ref="U3" pin="15"/>
-      <node ref="Keys1" pin="30"/>
-    </net>
-    <net code="47" name="/KEY_3">
-      <node ref="Keys1" pin="7"/>
-      <node ref="U2" pin="12"/>
-    </net>
-    <net code="48" name="/KEY_22">
-      <node ref="U3" pin="14"/>
-      <node ref="Keys1" pin="29"/>
-    </net>
-    <net code="49" name="/SPARE_4">
-      <node ref="J3" pin="9"/>
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="50" name="/KEY_0">
-      <node ref="U2" pin="4"/>
-      <node ref="Keys1" pin="1"/>
-    </net>
-    <net code="51" name="/SPARE_6">
-      <node ref="U1" pin="14"/>
-      <node ref="J3" pin="13"/>
-    </net>
-    <net code="52" name="/SPARE_5">
-      <node ref="U1" pin="13"/>
-      <node ref="J3" pin="11"/>
-    </net>
-    <net code="53" name="/SPARE_0">
-      <node ref="J3" pin="1"/>
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="54" name="/KEY_21">
-      <node ref="U3" pin="1"/>
-      <node ref="Keys1" pin="27"/>
-    </net>
-    <net code="55" name="/KEY_28">
-      <node ref="Keys1" pin="26"/>
-      <node ref="U3" pin="5"/>
-    </net>
-    <net code="56" name="/KEY_20">
-      <node ref="U3" pin="4"/>
-      <node ref="Keys1" pin="25"/>
-    </net>
-    <net code="57" name="/KEY_26">
-      <node ref="Keys1" pin="22"/>
-      <node ref="U4" pin="15"/>
-    </net>
-    <net code="58" name="/KEY_18">
-      <node ref="Keys1" pin="21"/>
-      <node ref="U4" pin="14"/>
-    </net>
-    <net code="59" name="/KEY_25">
-      <node ref="Keys1" pin="20"/>
-      <node ref="U4" pin="2"/>
-    </net>
-    <net code="60" name="/KEY_19">
-      <node ref="U4" pin="12"/>
-      <node ref="Keys1" pin="23"/>
-    </net>
-    <net code="61" name="/KEY_17">
-      <node ref="Keys1" pin="19"/>
-      <node ref="U4" pin="1"/>
-    </net>
-    <net code="62" name="/KEY_24">
-      <node ref="Keys1" pin="18"/>
-      <node ref="U4" pin="5"/>
-    </net>
-    <net code="63" name="/KEY_16">
-      <node ref="Keys1" pin="17"/>
-      <node ref="U4" pin="4"/>
-    </net>
-    <net code="64" name="/RGB_DO_BUF">
-      <node ref="U1" pin="15"/>
-      <node ref="D1" pin="4"/>
-    </net>
-    <net code="65" name="Net-(D4-Pad2)">
-      <node ref="D5" pin="4"/>
-      <node ref="D4" pin="2"/>
-    </net>
-    <net code="66" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="D3" pin="4"/>
-    </net>
-    <net code="67" name="Net-(D3-Pad2)">
-      <node ref="D4" pin="4"/>
-      <node ref="D3" pin="2"/>
-    </net>
-    <net code="68" name="/KEY_27">
-      <node ref="Keys1" pin="24"/>
-      <node ref="U4" pin="13"/>
-    </net>
-    <net code="69" name="Net-(D1-Pad2)">
-      <node ref="D2" pin="4"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="70" name="/KEY_31">
-      <node ref="U3" pin="13"/>
-      <node ref="Keys1" pin="32"/>
-    </net>
-    <net code="71" name="/KEY_29">
-      <node ref="U3" pin="2"/>
-      <node ref="Keys1" pin="28"/>
-    </net>
-    <net code="72" name="/TOUCH_2">
-      <node ref="U1" pin="23"/>
-      <node ref="U4" pin="3"/>
-    </net>
-    <net code="73" name="/TOUCH_1">
-      <node ref="U3" pin="3"/>
-      <node ref="U1" pin="22"/>
-    </net>
-    <net code="74" name="/LED_2_OUT">
-      <node ref="R19" pin="1"/>
-      <node ref="J4" pin="3"/>
-    </net>
-    <net code="75" name="/LED_2">
-      <node ref="U1" pin="8"/>
-      <node ref="R19" pin="2"/>
-    </net>
-    <net code="76" name="/LED_0_OUT">
-      <node ref="J4" pin="1"/>
-      <node ref="R17" pin="1"/>
-    </net>
-    <net code="77" name="/LED_1">
-      <node ref="R18" pin="2"/>
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="78" name="/LED_0">
-      <node ref="U1" pin="10"/>
-      <node ref="R17" pin="2"/>
-    </net>
-    <net code="79" name="/LED_1_OUT">
-      <node ref="R18" pin="1"/>
-      <node ref="J4" pin="2"/>
-    </net>
-    <net code="80" name="Net-(D14-Pad2)">
-      <node ref="D14" pin="2"/>
-      <node ref="D15" pin="4"/>
-    </net>
-    <net code="81" name="Net-(D30-Pad2)">
-      <node ref="D30" pin="2"/>
-      <node ref="D31" pin="4"/>
-    </net>
-    <net code="82" name="Net-(D31-Pad2)">
-      <node ref="D31" pin="2"/>
-    </net>
-    <net code="83" name="Net-(D29-Pad2)">
-      <node ref="D30" pin="4"/>
-      <node ref="D29" pin="2"/>
-    </net>
-    <net code="84" name="Net-(D28-Pad2)">
-      <node ref="D29" pin="4"/>
-      <node ref="D28" pin="2"/>
-    </net>
-    <net code="85" name="Net-(D27-Pad2)">
-      <node ref="D27" pin="2"/>
-      <node ref="D28" pin="4"/>
-    </net>
-    <net code="86" name="Net-(D26-Pad2)">
-      <node ref="D27" pin="4"/>
-      <node ref="D26" pin="2"/>
-    </net>
-    <net code="87" name="Net-(D21-Pad2)">
-      <node ref="D21" pin="2"/>
-      <node ref="D22" pin="4"/>
-    </net>
-    <net code="88" name="Net-(D12-Pad2)">
-      <node ref="D12" pin="2"/>
-      <node ref="D13" pin="4"/>
-    </net>
-    <net code="89" name="Net-(D13-Pad2)">
-      <node ref="D14" pin="4"/>
+    <net code="1" name="Net-(D13-Pad2)">
       <node ref="D13" pin="2"/>
+      <node ref="D14" pin="4"/>
     </net>
-    <net code="90" name="Net-(D11-Pad2)">
-      <node ref="D11" pin="2"/>
+    <net code="2" name="Net-(D11-Pad2)">
       <node ref="D12" pin="4"/>
+      <node ref="D11" pin="2"/>
     </net>
-    <net code="91" name="Net-(D10-Pad2)">
-      <node ref="D11" pin="4"/>
-      <node ref="D10" pin="2"/>
+    <net code="3" name="Net-(D12-Pad2)">
+      <node ref="D13" pin="4"/>
+      <node ref="D12" pin="2"/>
     </net>
-    <net code="92" name="+5V">
-      <node ref="D14" pin="1"/>
-      <node ref="D26" pin="1"/>
-      <node ref="D24" pin="1"/>
-      <node ref="D25" pin="1"/>
-      <node ref="D17" pin="1"/>
-      <node ref="U1" pin="33"/>
-      <node ref="D21" pin="1"/>
-      <node ref="D18" pin="1"/>
-      <node ref="D19" pin="1"/>
-      <node ref="D20" pin="1"/>
-      <node ref="D22" pin="1"/>
-      <node ref="D15" pin="1"/>
-      <node ref="D16" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="D12" pin="1"/>
-      <node ref="D13" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="D5" pin="1"/>
-      <node ref="D11" pin="1"/>
-      <node ref="D10" pin="1"/>
-      <node ref="D9" pin="1"/>
-      <node ref="D8" pin="1"/>
-      <node ref="D23" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C21" pin="1"/>
-      <node ref="C15" pin="2"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C22" pin="1"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C20" pin="1"/>
-      <node ref="C19" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C29" pin="2"/>
-      <node ref="C24" pin="1"/>
-      <node ref="C32" pin="2"/>
-      <node ref="C31" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="C25" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="C35" pin="1"/>
-      <node ref="C34" pin="1"/>
-      <node ref="C33" pin="1"/>
-      <node ref="C27" pin="2"/>
-      <node ref="C26" pin="2"/>
-      <node ref="C28" pin="2"/>
-      <node ref="D28" pin="1"/>
-      <node ref="D27" pin="1"/>
-      <node ref="JP1" pin="3"/>
-      <node ref="D29" pin="1"/>
-      <node ref="D31" pin="1"/>
-      <node ref="D30" pin="1"/>
-      <node ref="C18" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C16" pin="2"/>
+    <net code="4" name="Net-(D14-Pad2)">
+      <node ref="D15" pin="4"/>
+      <node ref="D14" pin="2"/>
     </net>
-    <net code="93" name="Net-(D6-Pad2)">
-      <node ref="D7" pin="4"/>
-      <node ref="D6" pin="2"/>
-    </net>
-    <net code="94" name="Net-(D7-Pad2)">
-      <node ref="D8" pin="4"/>
-      <node ref="D7" pin="2"/>
-    </net>
-    <net code="95" name="Net-(D5-Pad2)">
-      <node ref="D6" pin="4"/>
-      <node ref="D5" pin="2"/>
-    </net>
-    <net code="96" name="Net-(D10-Pad4)">
-      <node ref="D10" pin="4"/>
-      <node ref="D9" pin="2"/>
-    </net>
-    <net code="97" name="Net-(D8-Pad2)">
+    <net code="5" name="Net-(D8-Pad2)">
       <node ref="D9" pin="4"/>
       <node ref="D8" pin="2"/>
     </net>
-    <net code="98" name="Net-(D22-Pad2)">
-      <node ref="D23" pin="4"/>
-      <node ref="D22" pin="2"/>
+    <net code="6" name="Net-(D10-Pad4)">
+      <node ref="D10" pin="4"/>
+      <node ref="D9" pin="2"/>
     </net>
-    <net code="99" name="Net-(D23-Pad2)">
-      <node ref="D24" pin="4"/>
-      <node ref="D23" pin="2"/>
+    <net code="7" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="D11" pin="4"/>
     </net>
-    <net code="100" name="Net-(D20-Pad2)">
-      <node ref="D21" pin="4"/>
-      <node ref="D20" pin="2"/>
-    </net>
-    <net code="101" name="Net-(D19-Pad2)">
-      <node ref="D20" pin="4"/>
-      <node ref="D19" pin="2"/>
-    </net>
-    <net code="102" name="Net-(D25-Pad2)">
-      <node ref="D25" pin="2"/>
-      <node ref="D26" pin="4"/>
-    </net>
-    <net code="103" name="Net-(D24-Pad2)">
-      <node ref="D25" pin="4"/>
-      <node ref="D24" pin="2"/>
-    </net>
-    <net code="104" name="Net-(D17-Pad2)">
-      <node ref="D18" pin="4"/>
-      <node ref="D17" pin="2"/>
-    </net>
-    <net code="105" name="Net-(D15-Pad2)">
-      <node ref="D16" pin="4"/>
+    <net code="8" name="Net-(D15-Pad2)">
       <node ref="D15" pin="2"/>
+      <node ref="D16" pin="4"/>
     </net>
-    <net code="106" name="Net-(D16-Pad2)">
+    <net code="9" name="Net-(D16-Pad2)">
       <node ref="D16" pin="2"/>
       <node ref="D17" pin="4"/>
     </net>
-    <net code="107" name="Net-(D18-Pad2)">
-      <node ref="D18" pin="2"/>
+    <net code="10" name="Net-(D17-Pad2)">
+      <node ref="D18" pin="4"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D7-Pad2)">
+      <node ref="D8" pin="4"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="12" name="/KEY_9">
+      <node ref="Keys1" pin="4"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="13" name="/KEY_11">
+      <node ref="Keys1" pin="8"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="14" name="/KEY_14">
+      <node ref="Keys1" pin="14"/>
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="15" name="/RGB_DO_BUF">
+      <node ref="D1" pin="4"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="16" name="/KEY_18">
+      <node ref="Keys1" pin="21"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="17" name="/KEY_27">
+      <node ref="U4" pin="13"/>
+      <node ref="Keys1" pin="24"/>
+    </net>
+    <net code="18" name="/KEY_29">
+      <node ref="Keys1" pin="28"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="19" name="/KEY_31">
+      <node ref="U3" pin="13"/>
+      <node ref="Keys1" pin="32"/>
+    </net>
+    <net code="20" name="/KEY_30">
+      <node ref="Keys1" pin="30"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="21" name="/KEY_28">
+      <node ref="Keys1" pin="26"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="22" name="/KEY_26">
+      <node ref="Keys1" pin="22"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="23" name="/KEY_24">
+      <node ref="U4" pin="5"/>
+      <node ref="Keys1" pin="18"/>
+    </net>
+    <net code="24" name="/KEY_22">
+      <node ref="Keys1" pin="29"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="25" name="/KEY_20">
+      <node ref="U3" pin="4"/>
+      <node ref="Keys1" pin="25"/>
+    </net>
+    <net code="26" name="/KEY_16">
+      <node ref="Keys1" pin="17"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="27" name="/KEY_6">
+      <node ref="Keys1" pin="13"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="28" name="/KEY_4">
+      <node ref="Keys1" pin="9"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="29" name="/KEY_2">
+      <node ref="U2" pin="14"/>
+      <node ref="Keys1" pin="5"/>
+    </net>
+    <net code="30" name="/KEY_0">
+      <node ref="U2" pin="4"/>
+      <node ref="Keys1" pin="1"/>
+    </net>
+    <net code="31" name="/KEY_8">
+      <node ref="Keys1" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="32" name="/KEY_10">
+      <node ref="Keys1" pin="6"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="33" name="/KEY_12">
+      <node ref="Keys1" pin="10"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="34" name="Net-(D6-Pad2)">
+      <node ref="D7" pin="4"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="35" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="4"/>
+    </net>
+    <net code="36" name="Net-(D5-Pad2)">
+      <node ref="D6" pin="4"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="37" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="4"/>
+    </net>
+    <net code="38" name="Net-(D2-Pad2)">
+      <node ref="D3" pin="4"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D18-Pad2)">
       <node ref="D19" pin="4"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="40" name="Net-(D3-Pad2)">
+      <node ref="D4" pin="4"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2"/>
+      <node ref="D29" pin="4"/>
+    </net>
+    <net code="42" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2"/>
+      <node ref="D22" pin="4"/>
+    </net>
+    <net code="43" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2"/>
+      <node ref="D30" pin="4"/>
+    </net>
+    <net code="44" name="Net-(D30-Pad2)">
+      <node ref="D31" pin="4"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="D23" pin="4"/>
+    </net>
+    <net code="46" name="Net-(D23-Pad2)">
+      <node ref="D24" pin="4"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="D25" pin="4"/>
+    </net>
+    <net code="48" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="D20" pin="4"/>
+    </net>
+    <net code="49" name="Net-(D20-Pad2)">
+      <node ref="D21" pin="4"/>
+      <node ref="D20" pin="2"/>
+    </net>
+    <net code="50" name="Net-(D27-Pad2)">
+      <node ref="D28" pin="4"/>
+      <node ref="D27" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D25-Pad2)">
+      <node ref="D26" pin="4"/>
+      <node ref="D25" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D26-Pad2)">
+      <node ref="D27" pin="4"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="53" name="/KEY_25">
+      <node ref="Keys1" pin="20"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="54" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="55" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="56" name="Net-(J5-Pad3)">
+      <node ref="J6" pin="2"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="57" name="GND">
+      <node ref="U1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="D31" pin="3"/>
+      <node ref="U1" pin="32"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="D22" pin="3"/>
+      <node ref="D28" pin="3"/>
+      <node ref="D21" pin="3"/>
+      <node ref="D20" pin="3"/>
+      <node ref="D19" pin="3"/>
+      <node ref="D24" pin="3"/>
+      <node ref="D23" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J4" pin="10"/>
+      <node ref="J4" pin="12"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J1" pin="B1"/>
+      <node ref="J1" pin="B12"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J1" pin="A12"/>
+      <node ref="R6" pin="1"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D27" pin="3"/>
+      <node ref="D26" pin="3"/>
+      <node ref="D25" pin="3"/>
+      <node ref="D8" pin="3"/>
+      <node ref="D18" pin="3"/>
+      <node ref="D17" pin="3"/>
+      <node ref="D16" pin="3"/>
+      <node ref="D15" pin="3"/>
+      <node ref="D11" pin="3"/>
+      <node ref="D9" pin="3"/>
+      <node ref="D10" pin="3"/>
+      <node ref="D14" pin="3"/>
+      <node ref="D13" pin="3"/>
+      <node ref="D12" pin="3"/>
+      <node ref="D4" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D30" pin="3"/>
+      <node ref="D29" pin="3"/>
+      <node ref="D2" pin="3"/>
+      <node ref="D3" pin="3"/>
+      <node ref="D7" pin="3"/>
+      <node ref="D6" pin="3"/>
+      <node ref="D5" pin="3"/>
+      <node ref="D1" pin="3"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="58" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="59" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="60" name="Net-(J1-PadS1)">
+      <node ref="J1" pin="S1"/>
+    </net>
+    <net code="61" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="62" name="Net-(J1-PadA8)">
+      <node ref="J1" pin="A8"/>
+    </net>
+    <net code="63" name="Net-(J1-PadA6)">
+      <node ref="J8" pin="1"/>
+      <node ref="J1" pin="A6"/>
+      <node ref="J1" pin="B6"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="64" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="65" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="66" name="/SPARE_4">
+      <node ref="U1" pin="36"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="67" name="/SPARE_0">
+      <node ref="U1" pin="10"/>
+      <node ref="J4" pin="11"/>
+    </net>
+    <net code="68" name="/SPARE_3">
+      <node ref="J4" pin="5"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="69" name="/AIR_LED_1">
+      <node ref="J3" pin="4"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="70" name="Net-(J1-PadA7)">
+      <node ref="TP2" pin="1"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J1" pin="A7"/>
+      <node ref="J1" pin="B7"/>
+    </net>
+    <net code="71" name="/SPARE_1">
+      <node ref="J4" pin="9"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="72" name="Net-(D32-Pad2)">
+      <node ref="J1" pin="B4"/>
+      <node ref="J1" pin="B9"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="D32" pin="2"/>
+      <node ref="J1" pin="A4"/>
+    </net>
+    <net code="73" name="/KEY_7">
+      <node ref="Keys1" pin="15"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="74" name="/KEY_13">
+      <node ref="Keys1" pin="12"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="75" name="/KEY_5">
+      <node ref="Keys1" pin="11"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="76" name="/KEY_3">
+      <node ref="U2" pin="12"/>
+      <node ref="Keys1" pin="7"/>
+    </net>
+    <net code="77" name="/KEY_1">
+      <node ref="U2" pin="1"/>
+      <node ref="Keys1" pin="3"/>
+    </net>
+    <net code="78" name="/KEY_17">
+      <node ref="Keys1" pin="19"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="79" name="/KEY_19">
+      <node ref="U4" pin="12"/>
+      <node ref="Keys1" pin="23"/>
+    </net>
+    <net code="80" name="/KEY_21">
+      <node ref="Keys1" pin="27"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="81" name="/KEY_23">
+      <node ref="Keys1" pin="31"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="82" name="/KEY_15">
+      <node ref="U5" pin="13"/>
+      <node ref="Keys1" pin="16"/>
+    </net>
+    <net code="83" name="/AIR_SENSOR_4">
+      <node ref="U1" pin="27"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="84" name="+3V3">
+      <node ref="U1" pin="31"/>
+      <node ref="J3" pin="8"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U4" pin="16"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="16"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="85" name="/AIR_SENSOR_0">
+      <node ref="J3" pin="5"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="86" name="/AIR_SENSOR_2">
+      <node ref="J3" pin="6"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="87" name="/AIR_SENSOR_5">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="88" name="/MUX_2">
+      <node ref="U3" pin="9"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="89" name="/AIR_SENSOR_3">
+      <node ref="U1" pin="29"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="90" name="/AIR_SENSOR_1">
+      <node ref="U1" pin="30"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="91" name="Net-(R3-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="92" name="Net-(R2-Pad1)">
+      <node ref="U3" pin="6"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="93" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="94" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="95" name="/TOUCH_1">
+      <node ref="U1" pin="6"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="96" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="97" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="98" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="99" name="/TOUCH_3">
+      <node ref="U1" pin="3"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="100" name="/RGB_DO">
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="101" name="/AIR_LED_4">
+      <node ref="J2" pin="7"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="102" name="/AIR_LED_2">
+      <node ref="U1" pin="22"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="103" name="/AIR_LED_0">
+      <node ref="U1" pin="21"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="104" name="/AIR_LED_3">
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="105" name="/AIR_LED_5">
+      <node ref="U1" pin="14"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="106" name="/SPARE_2">
+      <node ref="U1" pin="13"/>
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="107" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="108" name="Net-(U1-Pad35)">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="109" name="/TOUCH_2">
+      <node ref="U1" pin="5"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="110" name="/TOUCH_0">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="111" name="+5V">
+      <node ref="C20" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="D33" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="J2" pin="9"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="U1" pin="33"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="D23" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D22" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="J3" pin="9"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="D29" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D30" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="112" name="/MUX_0">
+      <node ref="U1" pin="9"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U5" pin="11"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="113" name="/MUX_1">
+      <node ref="U1" pin="8"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="114" name="/SPARE_5">
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="37"/>
     </net>
   </nets>
 </export>

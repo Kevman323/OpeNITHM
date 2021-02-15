@@ -1,4 +1,4 @@
-## WARNING: The full PCB is largely untested, has no support for a case, and is being replaced with a new version soon. It's not recommended to order quite yet.
+## WARNING: The full PCB WILL CHANGE. It is untested, and has only been uploaded for reviewing. PLEASE DO NOT ORDER. There are no guarantees that it will work.
 
 # OpeNITHM
 
