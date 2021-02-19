@@ -1,16 +1,16 @@
 ## WARNING: These PCBs are largely untested, and have been uploaded for reviewing, and initial orders. ORDER AT YOUR OWN RISK. There are no guarantees that it will work, or that these designs will be supported with a case in the future.
 # BOARD VERSIONS:
-## Circut-Teensy32: Original small board for copper tape pads
-## Circut-Teensy32-Full-Board-upwards: Full PCB with upward firing WS2812 LEDs. JLC can assemble. - NOT TESTED
-## Circut-Teensy32-Full-Board-side: Full PCB with sideways firing SK6812 LEDs. JLC CANNOT assemble. - NOT TESTED
-## Circut-Teensy32-Full-Board-separate: Full PCB with slots cut for a separate LED board. There are no LEDs on the board itself. JLC can assemble. - NOT TESTED
-## Addon-LED-Board: Addon board for the above board. Has WS2812 LEDs, and slots into the main board for sideways firing. JLC PROBABLY can assemble, but only with the panelized version which combines 2 boards into one. - NOT TESTED
+Circut-Teensy32: Original small board for copper tape pads
+Circut-Teensy32-Full-Board-upwards: Full PCB with upward firing WS2812 LEDs. JLC can assemble. - NOT TESTED
+Circut-Teensy32-Full-Board-side: Full PCB with sideways firing SK6812 LEDs. JLC CANNOT assemble. - NOT TESTED
+Circut-Teensy32-Full-Board-separate: Full PCB with slots cut for a separate LED board. There are no LEDs on the board itself. JLC can assemble. - NOT TESTED
+Addon-LED-Board: Addon board for the above board. Has WS2812 LEDs, and slots into the main board for sideways firing. JLC PROBABLY can assemble, but only with the panelized version which combines 2 boards into one. - NOT TESTED
 
-## All boards have through hole spots for edge connectors, the teensy, the USB port, and the Barrel Jack. The separate LED board uses 1X3 90 angled 2.54 pitch connectors to attatch to the main board.
-## USB - USB4085-GF-A
-## Connectors - JST-PH. 9 pin for the Air boards, 4 pin for the air LEDs
-## Barrel Jack - any barrel jack with a standard 14x9mm footprint
-## Teensy LC - Make sure you connect the data lines on the teens before soldering to the board. You can either drop a pin straight down, or run wires out to the pads in front of it.
+All boards have through hole spots for edge connectors, the teensy, the USB port, and the Barrel Jack. The separate LED board uses 1X3 90 angled 2.54 pitch connectors to attatch to the main board.
+USB - USB4085-GF-A
+Connectors - JST-PH. 9 pin for the Air boards, 4 pin for the air LEDs
+Barrel Jack - any barrel jack with a standard 14x9mm footprint
+Teensy LC - Make sure you connect the data lines on the teens before soldering to the board. You can either drop a pin straight down, or run wires out to the pads in front of it.
 
 # OpeNITHM
 
