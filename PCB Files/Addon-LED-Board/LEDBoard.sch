@@ -47,7 +47,7 @@ $EndComp
 Text Notes 2600 750  2    50   ~ 0
 Main Integrated Strip for Keys
 $Comp
-L LED:SK6812_SIDE-A D2
+L LED:WS2812B D2
 U 1 1 625EAA3A
 P 2400 2150
 AR Path="/625EAA3A" Ref="D2"  Part="1" 
@@ -93,7 +93,7 @@ Connection ~ 2400 2450
 Connection ~ 3200 2450
 Connection ~ 3200 1850
 $Comp
-L LED:SK6812_SIDE-A D3
+L LED:WS2812B D3
 U 1 1 625EAA72
 P 3200 2150
 AR Path="/625EAA72" Ref="D3"  Part="1" 
@@ -113,7 +113,7 @@ Wire Wire Line
 Connection ~ 1600 2450
 Connection ~ 1600 1850
 $Comp
-L LED:SK6812_SIDE-A D1
+L LED:WS2812B D1
 U 1 1 625EAA41
 P 1600 2150
 AR Path="/625EAA41" Ref="D1"  Part="1" 
@@ -184,7 +184,7 @@ F 4 "C14663" H 3600 2150 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D5
+L LED:WS2812B D5
 U 1 1 632CF991
 P 4800 2150
 AR Path="/632CF991" Ref="D5"  Part="1" 
@@ -230,7 +230,7 @@ Connection ~ 4800 2450
 Connection ~ 5600 2450
 Connection ~ 5600 1850
 $Comp
-L LED:SK6812_SIDE-A D6
+L LED:WS2812B D6
 U 1 1 632CF9AA
 P 5600 2150
 AR Path="/632CF9AA" Ref="D6"  Part="1" 
@@ -250,7 +250,7 @@ Wire Wire Line
 Connection ~ 4000 2450
 Connection ~ 4000 1850
 $Comp
-L LED:SK6812_SIDE-A D4
+L LED:WS2812B D4
 U 1 1 632CF9B5
 P 4000 2150
 AR Path="/632CF9B5" Ref="D4"  Part="1" 
@@ -326,7 +326,7 @@ F 4 "C14663" H 6000 2150 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D8
+L LED:WS2812B D8
 U 1 1 632D4510
 P 7200 2150
 AR Path="/632D4510" Ref="D8"  Part="1" 
@@ -372,7 +372,7 @@ Connection ~ 7200 2450
 Connection ~ 8000 2450
 Connection ~ 8000 1850
 $Comp
-L LED:SK6812_SIDE-A D9
+L LED:WS2812B D9
 U 1 1 632D4529
 P 8000 2150
 AR Path="/632D4529" Ref="D9"  Part="1" 
@@ -392,7 +392,7 @@ Wire Wire Line
 Connection ~ 6400 2450
 Connection ~ 6400 1850
 $Comp
-L LED:SK6812_SIDE-A D7
+L LED:WS2812B D7
 U 1 1 632D4534
 P 6400 2150
 AR Path="/632D4534" Ref="D7"  Part="1" 
@@ -468,7 +468,7 @@ F 4 "C14663" H 8400 2150 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D11
+L LED:WS2812B D11
 U 1 1 632D8B81
 P 9600 2150
 AR Path="/632D8B81" Ref="D11"  Part="1" 
@@ -514,7 +514,7 @@ Connection ~ 9600 2450
 Connection ~ 10400 2450
 Connection ~ 10400 1850
 $Comp
-L LED:SK6812_SIDE-A D12
+L LED:WS2812B D12
 U 1 1 632D8B9A
 P 10400 2150
 AR Path="/632D8B9A" Ref="D12"  Part="1" 
@@ -534,7 +534,7 @@ Wire Wire Line
 Connection ~ 8800 2450
 Connection ~ 8800 1850
 $Comp
-L LED:SK6812_SIDE-A D10
+L LED:WS2812B D10
 U 1 1 632D8BA5
 P 8800 2150
 AR Path="/632D8BA5" Ref="D10"  Part="1" 
@@ -610,7 +610,7 @@ F 4 "C14663" H 10400 2850 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D14
+L LED:WS2812B D14
 U 1 1 6330B525
 P 9200 2850
 AR Path="/6330B525" Ref="D14"  Part="1" 
@@ -656,7 +656,7 @@ Connection ~ 9200 2550
 Connection ~ 8400 2550
 Connection ~ 8400 3150
 $Comp
-L LED:SK6812_SIDE-A D15
+L LED:WS2812B D15
 U 1 1 6330B53E
 P 8400 2850
 AR Path="/6330B53E" Ref="D15"  Part="1" 
@@ -676,7 +676,7 @@ Wire Wire Line
 Connection ~ 10000 2550
 Connection ~ 10000 3150
 $Comp
-L LED:SK6812_SIDE-A D13
+L LED:WS2812B D13
 U 1 1 6330B549
 P 10000 2850
 AR Path="/6330B549" Ref="D13"  Part="1" 
@@ -754,7 +754,7 @@ F 4 "C14663" H 8000 2850 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D17
+L LED:WS2812B D17
 U 1 1 6330B576
 P 6800 2850
 AR Path="/6330B576" Ref="D17"  Part="1" 
@@ -800,7 +800,7 @@ Connection ~ 6800 2550
 Connection ~ 6000 2550
 Connection ~ 6000 3150
 $Comp
-L LED:SK6812_SIDE-A D18
+L LED:WS2812B D18
 U 1 1 6330B58F
 P 6000 2850
 AR Path="/6330B58F" Ref="D18"  Part="1" 
@@ -820,7 +820,7 @@ Wire Wire Line
 Connection ~ 7600 2550
 Connection ~ 7600 3150
 $Comp
-L LED:SK6812_SIDE-A D16
+L LED:WS2812B D16
 U 1 1 6330B59A
 P 7600 2850
 AR Path="/6330B59A" Ref="D16"  Part="1" 
@@ -896,7 +896,7 @@ F 4 "C14663" H 5600 2850 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D20
+L LED:WS2812B D20
 U 1 1 6330B5C3
 P 4400 2850
 AR Path="/6330B5C3" Ref="D20"  Part="1" 
@@ -942,7 +942,7 @@ Connection ~ 4400 2550
 Connection ~ 3600 2550
 Connection ~ 3600 3150
 $Comp
-L LED:SK6812_SIDE-A D21
+L LED:WS2812B D21
 U 1 1 6330B5DC
 P 3600 2850
 AR Path="/6330B5DC" Ref="D21"  Part="1" 
@@ -962,7 +962,7 @@ Wire Wire Line
 Connection ~ 5200 2550
 Connection ~ 5200 3150
 $Comp
-L LED:SK6812_SIDE-A D19
+L LED:WS2812B D19
 U 1 1 6330B5E7
 P 5200 2850
 AR Path="/6330B5E7" Ref="D19"  Part="1" 
@@ -1038,7 +1038,7 @@ F 4 "C14663" H 3200 2850 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D23
+L LED:WS2812B D23
 U 1 1 6330B610
 P 2000 2850
 AR Path="/6330B610" Ref="D23"  Part="1" 
@@ -1084,7 +1084,7 @@ Connection ~ 2000 2550
 Connection ~ 1200 2550
 Connection ~ 1200 3150
 $Comp
-L LED:SK6812_SIDE-A D24
+L LED:WS2812B D24
 U 1 1 6330B629
 P 1200 2850
 AR Path="/6330B629" Ref="D24"  Part="1" 
@@ -1104,7 +1104,7 @@ Wire Wire Line
 Connection ~ 2800 2550
 Connection ~ 2800 3150
 $Comp
-L LED:SK6812_SIDE-A D22
+L LED:WS2812B D22
 U 1 1 6330B634
 P 2800 2850
 AR Path="/6330B634" Ref="D22"  Part="1" 
@@ -1202,7 +1202,7 @@ F 4 "C14663" H 1200 3550 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D26
+L LED:WS2812B D26
 U 1 1 633BDB38
 P 2400 3550
 AR Path="/633BDB38" Ref="D26"  Part="1" 
@@ -1248,7 +1248,7 @@ Connection ~ 2400 3850
 Connection ~ 3200 3850
 Connection ~ 3200 3250
 $Comp
-L LED:SK6812_SIDE-A D27
+L LED:WS2812B D27
 U 1 1 633BDB51
 P 3200 3550
 AR Path="/633BDB51" Ref="D27"  Part="1" 
@@ -1268,7 +1268,7 @@ Wire Wire Line
 Connection ~ 1600 3850
 Connection ~ 1600 3250
 $Comp
-L LED:SK6812_SIDE-A D25
+L LED:WS2812B D25
 U 1 1 633BDB5C
 P 1600 3550
 AR Path="/633BDB5C" Ref="D25"  Part="1" 
@@ -1345,7 +1345,7 @@ F 4 "C14663" H 3600 3550 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D29
+L LED:WS2812B D29
 U 1 1 633BDB89
 P 4800 3550
 AR Path="/633BDB89" Ref="D29"  Part="1" 
@@ -1391,7 +1391,7 @@ Connection ~ 4800 3850
 Connection ~ 5600 3850
 Connection ~ 5600 3250
 $Comp
-L LED:SK6812_SIDE-A D30
+L LED:WS2812B D30
 U 1 1 633BDBA2
 P 5600 3550
 AR Path="/633BDBA2" Ref="D30"  Part="1" 
@@ -1411,7 +1411,7 @@ Wire Wire Line
 Connection ~ 4000 3850
 Connection ~ 4000 3250
 $Comp
-L LED:SK6812_SIDE-A D28
+L LED:WS2812B D28
 U 1 1 633BDBAD
 P 4000 3550
 AR Path="/633BDBAD" Ref="D28"  Part="1" 
@@ -1487,7 +1487,7 @@ F 4 "C14663" H 6000 3550 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D32
+L LED:WS2812B D32
 U 1 1 633BDBD6
 P 7200 3550
 AR Path="/633BDBD6" Ref="D32"  Part="1" 
@@ -1533,7 +1533,7 @@ Connection ~ 7200 3850
 Connection ~ 8000 3850
 Connection ~ 8000 3250
 $Comp
-L LED:SK6812_SIDE-A D33
+L LED:WS2812B D33
 U 1 1 633BDBEF
 P 8000 3550
 AR Path="/633BDBEF" Ref="D33"  Part="1" 
@@ -1553,7 +1553,7 @@ Wire Wire Line
 Connection ~ 6400 3850
 Connection ~ 6400 3250
 $Comp
-L LED:SK6812_SIDE-A D31
+L LED:WS2812B D31
 U 1 1 633BDBFA
 P 6400 3550
 AR Path="/633BDBFA" Ref="D31"  Part="1" 
@@ -1629,7 +1629,7 @@ F 4 "C14663" H 8400 3550 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D35
+L LED:WS2812B D35
 U 1 1 633BDC23
 P 9600 3550
 AR Path="/633BDC23" Ref="D35"  Part="1" 
@@ -1675,7 +1675,7 @@ Connection ~ 9600 3850
 Connection ~ 10400 3850
 Connection ~ 10400 3250
 $Comp
-L LED:SK6812_SIDE-A D36
+L LED:WS2812B D36
 U 1 1 633BDC3C
 P 10400 3550
 AR Path="/633BDC3C" Ref="D36"  Part="1" 
@@ -1695,7 +1695,7 @@ Wire Wire Line
 Connection ~ 8800 3850
 Connection ~ 8800 3250
 $Comp
-L LED:SK6812_SIDE-A D34
+L LED:WS2812B D34
 U 1 1 633BDC47
 P 8800 3550
 AR Path="/633BDC47" Ref="D34"  Part="1" 
@@ -1771,7 +1771,7 @@ F 4 "C14663" H 10400 4250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D38
+L LED:WS2812B D38
 U 1 1 633BDC70
 P 9200 4250
 AR Path="/633BDC70" Ref="D38"  Part="1" 
@@ -1817,7 +1817,7 @@ Connection ~ 9200 3950
 Connection ~ 8400 3950
 Connection ~ 8400 4550
 $Comp
-L LED:SK6812_SIDE-A D39
+L LED:WS2812B D39
 U 1 1 633BDC89
 P 8400 4250
 AR Path="/633BDC89" Ref="D39"  Part="1" 
@@ -1837,7 +1837,7 @@ Wire Wire Line
 Connection ~ 10000 3950
 Connection ~ 10000 4550
 $Comp
-L LED:SK6812_SIDE-A D37
+L LED:WS2812B D37
 U 1 1 633BDC94
 P 10000 4250
 AR Path="/633BDC94" Ref="D37"  Part="1" 
@@ -1915,7 +1915,7 @@ F 4 "C14663" H 8000 4250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D41
+L LED:WS2812B D41
 U 1 1 633BDCBF
 P 6800 4250
 AR Path="/633BDCBF" Ref="D41"  Part="1" 
@@ -1961,7 +1961,7 @@ Connection ~ 6800 3950
 Connection ~ 6000 3950
 Connection ~ 6000 4550
 $Comp
-L LED:SK6812_SIDE-A D42
+L LED:WS2812B D42
 U 1 1 633BDCD8
 P 6000 4250
 AR Path="/633BDCD8" Ref="D42"  Part="1" 
@@ -1981,7 +1981,7 @@ Wire Wire Line
 Connection ~ 7600 3950
 Connection ~ 7600 4550
 $Comp
-L LED:SK6812_SIDE-A D40
+L LED:WS2812B D40
 U 1 1 633BDCE3
 P 7600 4250
 AR Path="/633BDCE3" Ref="D40"  Part="1" 
@@ -2057,7 +2057,7 @@ F 4 "C14663" H 5600 4250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D44
+L LED:WS2812B D44
 U 1 1 633BDD0C
 P 4400 4250
 AR Path="/633BDD0C" Ref="D44"  Part="1" 
@@ -2103,7 +2103,7 @@ Connection ~ 4400 3950
 Connection ~ 3600 3950
 Connection ~ 3600 4550
 $Comp
-L LED:SK6812_SIDE-A D45
+L LED:WS2812B D45
 U 1 1 633BDD25
 P 3600 4250
 AR Path="/633BDD25" Ref="D45"  Part="1" 
@@ -2123,7 +2123,7 @@ Wire Wire Line
 Connection ~ 5200 3950
 Connection ~ 5200 4550
 $Comp
-L LED:SK6812_SIDE-A D43
+L LED:WS2812B D43
 U 1 1 633BDD30
 P 5200 4250
 AR Path="/633BDD30" Ref="D43"  Part="1" 
@@ -2199,7 +2199,7 @@ F 4 "C14663" H 3200 4250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812_SIDE-A D47
+L LED:WS2812B D47
 U 1 1 633BDD59
 P 2000 4250
 AR Path="/633BDD59" Ref="D47"  Part="1" 
@@ -2229,7 +2229,7 @@ $EndComp
 Connection ~ 2800 3950
 Connection ~ 2800 4550
 $Comp
-L LED:SK6812_SIDE-A D46
+L LED:WS2812B D46
 U 1 1 633BDD7D
 P 2800 4250
 AR Path="/633BDD7D" Ref="D46"  Part="1" 
