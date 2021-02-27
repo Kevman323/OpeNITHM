@@ -32,7 +32,7 @@ class AutoTouchboard {
     int deltaThreshold = 5;
     double releaseThreshold = 0.8;
 #else
-    int deltaThreshold = 6;
+    int deltaThreshold = 15;
     double releaseThreshold = 0.8;
 #endif
     
@@ -52,6 +52,7 @@ class AutoTouchboard {
     void scan();
     KeyState update(int key);
     uint16_t getRawValue(int key);
+    uint16_t getReleaseThresholdSingle(int key);
     void calibrateKeys();
     bool isCalibrated() { return calibrated; }
 };
