@@ -1,0 +1,18 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0603_1608Metric,-13.195,-127,180,bottom
+C2,100nF,C_0603_1608Metric,322.085,-127,180,bottom
+C3,100nF,C_0603_1608Metric,210.325,-127,180,bottom
+C4,100nF,C_0603_1608Metric,98.565,-127,180,bottom
+D48,D_Schottky,D_SMA,140.335,-10.89,90,bottom
+D49,D_Schottky,D_SMA,124.46,-10.89,90,bottom
+J1,USB_C_Receptacle,USB_C_Receptacle_HRO_TYPE-C-31-M-12,148,-7.5,0,bottom
+R1,10k,R_0603_1608Metric,-7.62,-136.08,270,bottom
+R2,10k,R_0603_1608Metric,327.66,-136.08,270,bottom
+R3,10k,R_0603_1608Metric,215.9,-136.08,270,bottom
+R4,10k,R_0603_1608Metric,104.14,-136.08,270,bottom
+R5,5.1k,R_0603_1608Metric,150.34,-15,180,bottom
+R6,5.1k,R_0603_1608Metric,150.34,-17,180,bottom
+U2,74HC4051D,SOIC-16_3.9x9.9mm_P1.27mm,-12.7,-133.35,180,bottom
+U3,74HC4051D,SOIC-16_3.9x9.9mm_P1.27mm,322.58,-133.35,180,bottom
+U4,74HC4051D,SOIC-16_3.9x9.9mm_P1.27mm,210.82,-133.35,180,bottom
+U5,74HC4051D,SOIC-16_3.9x9.9mm_P1.27mm,99.06,-133.35,180,bottom
