@@ -1,12 +1,19 @@
 #include "AutoTouchboard.h"
 
 #if NUM_SENSORS == 32
-#ifndef ALT_TOUCHKEY_ORDER
+#if (defined(OPENITHM_FULL_V1_0) || defined(OPENITHM_FULL2_0_UP))
 static const int sensorMap[] = {
   11, 3, 10, 2, 9, 1, 8, 0,
   31, 23, 30, 22, 29, 21, 28, 20,
   27, 19, 26, 18, 25, 17, 24, 16,
   15, 7, 14, 6, 13, 5, 12, 4
+};
+#elif defined(OPENITHM_FULL2_0_SIDE)
+static const int sensorMap[] = {
+  0, 8, 1, 9, 2, 10, 3, 11,
+  20, 28, 21, 29, 22, 30, 23, 31,
+  16, 24, 17, 25, 18, 26, 19, 27,
+  4, 12, 5, 13, 6, 14, 7, 15
 };
 #else
  static const int sensorMap[] = {
